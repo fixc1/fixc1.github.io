@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <header>
+    <div class="contenido_del_header">
+            <img src="/multimedia/logosinfondo.png" alt="Logo de Panadería Vegiii" class="logo">
+            <h1>PANADERÍA VEGIII 😺</h1>
+        </div>
+        <nav>
+            <ul class="menu_inicio">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--ESTILOS DE GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
+
+    <!--ICONOS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--MIS ESTILOS -->
+    <link rel="stylesheet" href="estilos.css">
+    <nav>
+
+    </nav>
+    <main>
+        
+        <h1 class="textoverde">video presentacion</h1>
+        <video controls width="20%" muted>
+
+            <source src="/videos/video.mp4" type="video/mp4">
+            <track src="videos/subtitulos.vtt" kind="subtitles" srclang="es" label="español" default>
+            <track src="videos/subtitulos ingles.vtt" kind="subtitles" srclang="en" label="inglish" default>
+
+        </video>
+
+
+    </main>
+    <footer>
+
+        <h2>PEDIDOS</h2>
+        <form action="https://formspree.io/f/manorgdp" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">su pedido:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <h1>seguinos en nuestras redes</h1>
+
+        <li><i class="fa-brands fa-instagram"></i> instagram</li>
+        <li><i class="fa-brands fa-youtube"></i> youtube</li>
+        <li><i class="fa-brands fa-facebook-f"></i> facebook</li>
+    </footer>
+</body>
+
+</html>

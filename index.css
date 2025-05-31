@@ -1,0 +1,47 @@
+/*ESTILOS DEL HEADER*/
+
+.contenido_del_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.menu_inicio {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+body {
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+
+header {
+    background-color: violet;
+}
+/*ESTILOS DEL FOOTER*/
+footer {
+    background-color: aqua;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+/*ESTILOS DEL A*/
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.textoverde{
+    color: green;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    width: 80px;
+
+
+}
